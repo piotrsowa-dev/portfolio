@@ -1,0 +1,22 @@
+import Nav from "./components/nav/Nav"
+import Hero from "./components/hero/Hero"
+import About from "./components/about/About"
+import Projects from "./components/projects/Projects"
+import "./Main.css"
+
+function App() {
+
+  return (
+    <>
+        <Nav></Nav>
+        
+      <div className="container">
+        <Hero></Hero>
+        <About></About>
+        <Projects></Projects>
+      </div>
+    </>
+  )
+}
+
+export default App
