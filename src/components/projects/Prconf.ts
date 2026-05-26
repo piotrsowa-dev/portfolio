@@ -32,7 +32,7 @@ export const prconfs = [
         name: "Personal Portfolio",
         description: 'Osobiste portfolio frontend developera stworzone w React i TypeScript. Strona prezentuje moje projekty, stack technologiczny oraz doświadczenie, skupiając się na responsywnym layoucie, komponentowej strukturze i minimalistycznym UI.',
         data: "2026",
-        livedemolink: "#",
+        livedemolink: "https://piotrsowa-dev.github.io/portfolio/",
         codelink: "#",
     }
 ]
