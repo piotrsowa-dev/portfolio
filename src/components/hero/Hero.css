@@ -112,3 +112,8 @@
         max-width: 500px;
     }
 }
+@media (max-width: 450px){
+    .hero-container{
+        margin-top: 120px;
+    }
+}
