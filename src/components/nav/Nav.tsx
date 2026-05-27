@@ -8,7 +8,7 @@ function Nav() {
         <div className="right-nav">
             <a href="#about"><div className="menus">About</div></a>
             <a href="#portfolio"><div className="menus">Portfolio</div></a>
-            <div className="menus">Kontakt</div>
+            <a href="#kontakt"><div className="menus">Kontakt</div></a>
         </div>
     </nav>
   )
