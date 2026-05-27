@@ -1,7 +1,7 @@
 import "./Contact.css"
 function Contact() {
   return (
-    <div className="contact">
+    <div className="contact"  data-aos="fade-in">
         <div className="emailzone" id="kontakt">
             <h1>Skontaktuj się ze mną</h1>
             <form action="https://formspree.io/f/mnjrlaja" method="POST">

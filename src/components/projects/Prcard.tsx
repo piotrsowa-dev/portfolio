@@ -13,7 +13,7 @@ const Prcard =({ image, name, description, data, livedemolink, codelink}: CardPr
 
     return(
         <>
-            <div className="project">
+            <div className="project"  data-aos="fade-up" data-aos-delay="200">
                 <img src={`${image}`} alt=""  />
                 <h2>{name}</h2>
                 <p>{description}</p>

@@ -3,11 +3,11 @@ import { AboutText } from "./Text"
 
 function About() {
   return (
-    <main id="about">
+    <main id="about" data-aos="fade-up">
 
-        <h1>Kilka słów o mnie.</h1>
+        <h1   >Kilka słów o mnie.</h1>
         {AboutText.map((paragraph) => (
-            <p key={paragraph.id}>{paragraph.text}</p>
+            <p  data-aos="fade-in"  key={paragraph.id}>{paragraph.text}</p>
         ))}
     </main>
   )

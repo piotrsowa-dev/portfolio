@@ -12,7 +12,7 @@ body, html
     font-family: Satoshi-Variable;
     margin: 0 auto;
     padding: 0;
-    height: 100%;
+    min-height: 100%;
     cursor:default;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -20,7 +20,7 @@ body, html
 .container
 {
     max-width: 1200px;
-    height: 100%;
+    min-height: 100%;
     margin: 0 auto;
     position: relative;
 }

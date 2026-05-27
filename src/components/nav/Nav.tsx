@@ -1,7 +1,7 @@
 import "./Nav.css"
 function Nav() {
   return (
-    <nav>
+    <nav  data-aos="fade-in" data-aos-duration="1000">
         <div className="left-nav">
             <div className="name">Piotr Sowa</div>
         </div>

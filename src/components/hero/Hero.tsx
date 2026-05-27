@@ -14,16 +14,16 @@ function Hero() {
   return (
     <>
         <div className="hero-container">
-            <div className="left-hero">
-                <h4>Cześć, jestem</h4>
-                <h1>Piotr Sowa</h1>
-                <h2>Frontend Developer</h2>
-                <p>Tworzę nowoczesne strony i projekty webowe, skupiając się na przejrzystym designie, responsywnych landing page’ach oraz customowym UI do gier.</p>
+            <div className="left-hero" >
+                <h4  data-aos="fade-up" data-aos-delay="0" >Cześć, jestem</h4>
+                <h1  data-aos="fade-up" data-aos-delay="300" >Piotr Sowa</h1>
+                <h2  data-aos="fade-up" data-aos-delay="400" >Frontend Developer</h2>
+                <p  data-aos="fade-up" data-aos-delay="500" >Tworzę nowoczesne strony i projekty webowe, skupiając się na przejrzystym designie, responsywnych landing page’ach oraz customowym UI do gier.</p>
             </div>
-            <div className="right-hero">
-                <h1>Tech Stack</h1>
+            <div className="right-hero" >
+                <h1 data-aos="fade-up" data-aos-delay="600">Tech Stack</h1>
 
-            <div className="techs">
+            <div className="techs" data-aos="fade-in" data-aos-delay="1000">
                 {TechStack.map((stack) =>(
                     <Tech 
                     key={stack.id} 
