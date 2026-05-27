@@ -18,7 +18,7 @@ function Hero() {
                 <h4  data-aos="fade-up" data-aos-delay="0" >Cześć, jestem</h4>
                 <h1  data-aos="fade-up" data-aos-delay="300" >Piotr Sowa</h1>
                 <h2  data-aos="fade-up" data-aos-delay="400" >Frontend Developer</h2>
-                <p  data-aos="fade-up" data-aos-delay="500" >Tworzę nowoczesne strony i projekty webowe, skupiając się na przejrzystym designie, responsywnych landing page’ach oraz customowym UI do gier.</p>
+                <p  data-aos="fade-up" data-aos-delay="500" >Tworzę nowoczesne strony i projekty webowe, skupiając się na przejrzystym designie, responsywnych layoutach oraz customowym UI.</p>
             </div>
             <div className="right-hero" >
                 <h1 data-aos="fade-up" data-aos-delay="600">Tech Stack</h1>
