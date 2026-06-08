@@ -1,0 +1,101 @@
+.consh1name
+{
+    color: var(--add-color);
+    text-align: center;
+}
+.project-con
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    padding: 20px;
+    justify-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    gap: 10px;
+    row-gap: 40px;
+}
+.project
+{
+    width: clamp(200px, 80vw, 550px);
+    min-height: 500px;
+    max-height: 750px;
+    border-radius: 6.7px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    border: 1px #4b4b4b solid;
+}
+.project > img
+{
+    width: clamp(200px, 75vw, 500px);
+    margin-top: 20px;
+    display: block;
+    border-radius: 5px
+}
+.project > h2
+{
+    color: var(--add-color);
+    align-self: self-start;
+    padding-left: 20px;
+    font-size: clamp(22px, 2.2vw, 25px);
+    padding-bottom: 0px;
+}
+.project > p
+{
+    padding: 30px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+    margin-top: -5px
+}
+.project > .year
+{
+    padding: 0px;
+    color: var(--add-color);
+    margin-top: auto;
+}
+.addons
+{
+    gap: 50px;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: 20px
+}
+.preview > .icon
+{
+    position: absolute;
+    margin-left: 5px;
+}
+.code > .icon
+{
+    position: absolute;
+    margin-left: 5px;
+}
+.code
+{
+    color: var(--text-color);
+    transition-duration: 0.2s;    
+}
+.preview
+{
+    transition-duration: 0.2s;    
+    color: var(--add-color);
+}
+.preview:hover
+{
+    color: var(--text-color)
+}
+.code:hover
+{
+    color: var(--add-color);
+}
+.addons a
+{
+    text-decoration: none;
+}
+
+@media (max-width: 860px) {
+
+}

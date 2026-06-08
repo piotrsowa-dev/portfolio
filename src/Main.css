@@ -1,0 +1,26 @@
+@import url(././WEB/css/satoshi.css);
+:root
+{
+    --bg-color: #050505;
+    --text-color: #c5c5c5;
+    --add-color: #1591DC;
+}
+body, html
+{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Satoshi-Variable;
+    margin: 0 auto;
+    padding: 0;
+    min-height: 100%;
+    cursor:default;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.container
+{
+    max-width: 1200px;
+    min-height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
