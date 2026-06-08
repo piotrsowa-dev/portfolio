@@ -14,8 +14,8 @@ export const prconfs = [
         name: "Biała Perła",
         description: 'Landing page dla sali okolicznościowej „Biała Perła”, wykonany na zlecenie klienta. Strona została zbudowana w HTML, CSS i JavaScript, z animowanym tłem, galerią zdjęć oraz eleganckim, nowoczesnym wyglądem dopasowanym do branży eventowej.',
         data: "2023",
-        livedemolink: "#",
-        codelink: "#",
+        livedemolink: "https://piotrsowa-dev.github.io/Bia-a_Per-a/",
+        codelink: "https://github.com/piotrsowa-dev/Bia-a_Per-a",
     },
     {
         id: 3,
