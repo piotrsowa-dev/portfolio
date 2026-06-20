@@ -5,8 +5,8 @@ export const prconfs = [
         name: "Fryzjer | Demo",
         description: "Strona one page, landing page dla fryzjer w katowicach zrobiony przy użyciu technologi html, css. Do wersji demo użyto zdjęc wygenerowanych przez AI.",
         data: "2026",
-        livedemolink: "#",
-        codelink: "#",
+        livedemolink: "https://piotrsowa-dev.github.io/fryzjer-demo/",
+        codelink: "https://github.com/piotrsowa-dev/fryzjer-demo",
     },
     {
         id: 2,
@@ -23,8 +23,8 @@ export const prconfs = [
         name: "Customizable Game UI",
         description: 'Konfigurowalny system HUD zaprojektowany dla serwerów FiveM, umożliwiający dynamiczną zmianę koloru oraz skali interfejsu użytkownika. Projekt został wykonany z użyciem HTML, CSS i JavaScript, skupiając się na estetyce, czytelności i personalizacji UI.',
         data: "2024",
-        livedemolink: "#",
-        codelink: "#",
+        livedemolink: "https://piotrsowa-dev.github.io/fivem-scaled-hud/",
+        codelink: "https://github.com/piotrsowa-dev/fivem-scaled-hud",
     },
     {
         id: 4,
